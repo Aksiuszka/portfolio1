@@ -1,0 +1,207 @@
+body{
+    font-family: 'Cinzel', serif;
+}
+
+section {
+    
+    background-color:lightseagreen;
+    border: solid black 2px;
+}
+
+.osoba {
+    background-color: white;
+    height: 100vh;
+    color:slateblue;
+    font-size:40px;
+
+}
+
+footer {
+background-color:white;
+
+
+}
+
+nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-family: 'Homemade Apple', cursive;
+}
+
+li {
+
+text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 80px;
+    padding:60px;
+    
+}
+
+
+p {
+    font-family: 'Homemade Apple', cursive;
+    margin: 0;
+}
+
+.text1pozycja{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text1 {
+  margin-left: 80px; 
+  margin-bottom: 200px; 
+}
+.button {
+    width:200px;
+    height:50px;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    padding-top:15px;
+
+}
+
+.button:hover{
+    background-color: salmon;
+
+}
+.button:active{
+    background-color: springgreen;
+    color:salmon;
+}
+
+#logo {
+    height: 150px;
+    width: 290px;
+    margin: 10px;
+}
+
+.socialmedia{
+padding-bottom: 200px;
+
+}
+
+.social{
+    margin-right: 20px;
+}
+
+.personalia{
+    display:flex;
+    justify-content: space-around;
+    padding:0px;
+}
+
+
+
+.project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.paragraf2{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: whitesmoke;  
+    padding-bottom: 60px; 
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+#selfie {
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    transform: rotate(-20deg);
+    
+
+}
+
+.zdjecie{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .projekty{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.projekty{
+    display:flex;
+    justify-content: space-around;
+    padding:40px;
+    
+
+}
+
+.zakladkaprojektowa {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:50px;
+    box-shadow:5px 5px 20px whitesmoke;  
+}
+
+.projektzdjecie{
+    margin-top: 25px;
+    height: 180px;
+    width: 180px;;
+    border-radius: 100px;
+}
+
+.przelacznik{
+    font-family:'Pacifico', cursive;
+}
+.link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.linknavi{
+    text-decoration: none; 
+    color:slateblue;
+}
+.linkbutton{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.koncowenapisy{
+font-size: 40px;
+color:slateblue;
+}
+.formatka{
+    margin-left: 90px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-family:'Pacifico', cursive;
+}
